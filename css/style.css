@@ -1,0 +1,110 @@
+
+/**************AVATAR****************/
+aside {
+    background-color: #ECEEF0;
+}
+.avatar {
+    margin: 0 auto;
+}
+.avatar img {
+    width: 100%;
+    border-radius: 50%;
+    align-self: center; 
+}
+
+h1 {
+    font-family: "IBM Plex Sans",sans-serif;
+    font-size: 1.75em;
+    color: #6989B7;
+}
+h2 {
+   font-family: "IBM Plex Sans",sans-serif;
+    font-size: 1.2em;
+   color: #6989B7; 
+}
+h3 {
+    font-family: "IBM Plex Sans",sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: bold
+}
+/**************PERFIL****************/
+.perfil {
+    background-color: #6989B7;
+    margin: 0 auto;
+}
+.perfil div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.perfil p {
+    margin: 0 auto;
+    font-family: "IBM Plex Sans",sans-serif;
+    font-size: 1em;
+    color: #fff;
+}
+.perfil a {
+    margin: 0 auto;
+    font-family: "IBM Plex Sans",sans-serif;
+    font-size: 1em;
+    color: #fff;
+}
+#whatsapp {
+    width: 2rem;    
+}
+#mail {
+    width: 2rem;    
+}
+#linkedin {
+    width: 2rem;    
+}
+
+/**************FORMACAO****************/    
+
+span {
+    font-family: "IBM Plex Sans",sans-serif;
+    font-size: 0.9em;
+    color: #CBD1D7;
+}
+/**************CORPO****************/
+#myBio {
+    height: 100%;
+    max-width: 600px;
+}
+#myBio p {
+    font-family: "IBM Plex Sans",sans-serif;
+    font-size: 0.9em;
+    color: #000000;
+}
+#myBio h2 {
+   background-color: #ECEEF0;
+   padding: 5px 0px;
+}
+#myBio h3 {
+    font-family: "IBM Plex Sans",sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #6989B7;
+    margin-bottom: 0px;
+}
+#myBio span {
+    color: #A4A5A6;
+    font-weight: 400;
+}
+.experience {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
