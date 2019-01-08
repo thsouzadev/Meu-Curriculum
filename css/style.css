@@ -1,103 +1,142 @@
-
+#row-content {
+  background-color: white;
+  width: 100%;
+}
+body {
+  background: #CBD1D7;
+}
 /**************AVATAR****************/
 aside {
-    background-color: #ECEEF0;
+  background-color: #ECEEF0;
+  
 }
 .avatar {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .avatar img {
-    width: 100%;
-    border-radius: 50%;
-    align-self: center; 
+  width: 100%;
+  border-radius: 50%;
+  align-self: center; 
 }
 
 h1 {
-    font-family: "IBM Plex Sans",sans-serif;
-    font-size: 1.75em;
-    color: #6989B7;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1.75em;
+  color: #6989B7;
 }
 h2 {
-   font-family: "IBM Plex Sans",sans-serif;
-    font-size: 1.2em;
-   color: #6989B7; 
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1.2em;
+  color: #6989B7; 
 }
 h3 {
-    font-family: "IBM Plex Sans",sans-serif;
-    font-size: 1em;
-    color: #ffffff;
-    font-weight: bold
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1em;
+  color: #ffffff;
+  font-weight: bold
 }
 /**************PERFIL****************/
 .perfil {
-    background-color: #6989B7;
-    margin: 0 auto;
+  background-color: #6989B7;
+  margin: 0 auto;
 }
 .perfil div{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .perfil p {
-    margin: 0 auto;
-    font-family: "IBM Plex Sans",sans-serif;
-    font-size: 1em;
-    color: #fff;
+  margin: 0 auto;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1em;
+  color: #fff;
+}
+.perfil>p:last-child {
+  padding-bottom: 600px;
 }
 .perfil a {
-    margin: 0 auto;
-    font-family: "IBM Plex Sans",sans-serif;
-    font-size: 1em;
-    color: #fff;
+  margin: 0 auto;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1em;
+  color: #fff;
 }
 #whatsapp {
-    width: 2rem;    
+  width: 2rem;    
 }
 #mail {
-    width: 2rem;    
+  width: 2rem;    
 }
 #linkedin {
-    width: 2rem;    
+  width: 2rem;    
 }
 
 /**************FORMACAO****************/    
 
 span {
-    font-family: "IBM Plex Sans",sans-serif;
-    font-size: 0.9em;
-    color: #CBD1D7;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.9em;
+  color: #CBD1D7;
 }
 /**************CORPO****************/
 #myBio {
-    height: 100%;
-    max-width: 600px;
+  height: 100%;
+  max-width: 700px;
 }
 #myBio p {
-    font-family: "IBM Plex Sans",sans-serif;
-    font-size: 0.9em;
-    color: #000000;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.9em;
+  color: #000000;
+  line-height: 1.75em;
 }
 #myBio h2 {
-   background-color: #ECEEF0;
-   padding: 5px 0px;
+  background-color: #ECEEF0;
+  padding: 5px 0px;
+  font-weight: bold;
 }
 #myBio h3 {
-    font-family: "IBM Plex Sans",sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-    color: #6989B7;
-    margin-bottom: 0px;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: #6989B7;
+  margin-bottom: 0px;
 }
 #myBio span {
-    color: #A4A5A6;
-    font-weight: 400;
+  color: #A4A5A6;
+  font-weight: 400;
+}
+#myBio a {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1em;
+  color: #6989B7;
 }
 .experience {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.progress {
+  margin: 0 auto;
+  width: 100%;
+}
+#p-Skill {
+  margin: 0 auto;
+  font-weight: bold;
+  color: #6989B7!important;
+}
+.div-skill {
+  width: 150px;
+}
+.progress-bar {
+  background-color: #6989B7;
+}
+
 
 
 
